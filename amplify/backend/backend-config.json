@@ -6,7 +6,7 @@
       "dependsOn": [
         {
           "category": "auth",
-          "resourceName": "basicappf40fed83",
+          "resourceName": "basicapp1e40fa16",
           "attributes": [
             "UserPoolId"
           ]
@@ -24,7 +24,7 @@
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authbasicappf40fed83"
+                "userPoolId": "authbasicapp1e40fa16"
               }
             }
           ]
@@ -33,7 +33,7 @@
     }
   },
   "auth": {
-    "basicappf40fed83": {
+    "basicapp1e40fa16": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
