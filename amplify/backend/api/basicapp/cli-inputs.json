@@ -10,7 +10,7 @@
     "additionalAuthTypes": [
       {
         "mode": "AMAZON_COGNITO_USER_POOLS",
-        "cognitoUserPoolId": "authbasicapp1e40fa16"
+        "cognitoUserPoolId": "authbasicapp23dbea1f"
       }
     ]
   }

@@ -6,7 +6,7 @@
       "dependsOn": [
         {
           "category": "auth",
-          "resourceName": "basicapp1e40fa16",
+          "resourceName": "basicapp23dbea1f",
           "attributes": [
             "UserPoolId"
           ]
@@ -24,7 +24,7 @@
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authbasicapp1e40fa16"
+                "userPoolId": "authbasicapp23dbea1f"
               }
             }
           ]
@@ -33,7 +33,7 @@
     }
   },
   "auth": {
-    "basicapp1e40fa16": {
+    "basicapp23dbea1f": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -56,6 +56,13 @@
           "EMAIL"
         ]
       }
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2022-12-07T00:42:06.625Z"
     }
   }
 }
